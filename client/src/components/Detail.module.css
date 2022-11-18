@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.card {
+  width: 80%;
+  padding: 30px 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ccc;
+  color: #324A5E;
+}
+
+.content {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.col1 {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col1 button {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #324A5E;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: #FFD15D;
+}
+
+.col1 button:hover {
+  cursor: pointer;
+  background-color: #F9B54C;
+}
+
+.category {
+  width: fit-content;
+  padding: 10px;
+  margin: 0px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ccc;
+  border-radius: 4%;
+}
+
+.cartButton {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.col2 {
+  display: flex;
+  align-items: center;
+}
+
+.col2 img {
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 60%;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .col1 {
+    max-width: 100%;
+  }
+}

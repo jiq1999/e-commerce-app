@@ -1,0 +1,9 @@
+@media only screen and (max-width: 768px) {
+  .button {
+    background-color: transparent;
+    border-width: 0px;
+    font-size: 16px;
+    color: #324A5E;
+    padding: 10px 0px;
+  }
+}

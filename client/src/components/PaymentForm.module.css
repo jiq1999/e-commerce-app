@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  color: #324A5E;
+}
+
+.card {
+  width: 70%;
+  background-color: #fff;
+  padding: 30px;
+  margin: 40px 0px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.row1 input {
+  height: 20px;
+  background-color: #f0f0f0;
+  border: 0px;
+  border-radius: 2px;
+}
+
+.row2 {
+  padding: 15px;
+}
+
+.element {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.buyButton {
+  color: #324A5E;
+  background-color: #FFD15D;
+  border: 0px;
+  font-size: 22px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.buyButton:hover {
+  cursor: pointer;
+  background-color: #F9B54C;
+}
+
+.buyButton:disabled {
+  cursor: auto;
+  background-color: #F9B54C;
+}
+
+.popupText {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.loadingButton {
+  height: 22px;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .row1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .row1 label {
+    text-align: left;
+  }
+
+  .row1 input {
+    width: 100%;
+  }
+
+  .buyButton {
+    margin-top: 20px;
+  }
+
+  .select {
+    width: 100%;
+  }
+}

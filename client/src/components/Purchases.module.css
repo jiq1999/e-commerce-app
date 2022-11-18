@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0px;
+}
+  
+.item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ccc;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 120px;
+  padding: 30px 100px;
+  color: #324A5E;
+}
+
+.title {
+  color: #324A5E;
+  margin: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .item {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 30px;
+    width: 65%;
+  }
+}

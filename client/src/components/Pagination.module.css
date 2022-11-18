@@ -1,0 +1,26 @@
+.paginationCont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.pagination {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.pagination:hover {
+  cursor: pointer;
+  background-color: #bababa;
+}
+
+.pagination span {
+  font-size: 20px;
+  font-weight: 400;
+}

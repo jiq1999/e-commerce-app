@@ -1,0 +1,23 @@
+.button {
+  height: 35px;
+  width: 80px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #324A5E;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: #FFD15D;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #F9B54C;
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
