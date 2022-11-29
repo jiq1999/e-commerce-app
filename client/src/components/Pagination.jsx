@@ -13,8 +13,8 @@ export default function Pagination({ productsPerPage, allProducts, pagination })
       {
         pageNumbers?.map(num => {
           return (
-            <div className={Styles.pagination} key={num}>
-              <span onClick={() => pagination(num)}>{num}</span>
+            <div onClick={() => pagination(num)} className={Styles.pagination} key={num}>
+              <span>{num}</span>
             </div>
           )
         })

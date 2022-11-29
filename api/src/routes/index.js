@@ -175,14 +175,20 @@ router.post('/purchase', async (req, res) => {
 router.get('/purchases', async (req, res) => {
   let { user } = req.query;
 
-  let data = await Purchase.findAll({
-    where: { user: user }
-  })
-
-  if(data) {
-    res.status(200).send(data);
-  } else {
-    res.status(404).send('Not Found');
+  try {
+    if (user) {
+      let data = await Purchase.findAll({
+        where: { user: user }
+      })
+      
+      if (data) {
+        res.status(200).send(data);
+      } else {
+        res.status(404).send('Not Found');
+      }
+    }
+  } catch (err) {
+    console.log(err)
   }
 })
 
