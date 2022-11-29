@@ -4,7 +4,7 @@
   <img height="100" src="./logo.png" />
 </p>
 
-## DEPLOY: <a href="https://e-commerce-app-jiq999.vercel.app/">HERE</a>
+## DEPLOY: <a href="https://e-commerce-app-jiq999.vercel.app/" target='_blank'>HERE</a>
 
 ## FEATURES:
 
