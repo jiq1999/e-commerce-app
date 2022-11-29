@@ -22,12 +22,8 @@
 - JAVASCRIPT
 - REACT
 - REDUX
-- NODEJS
-- EXPRESS
-- SEQUELIZE
-- POSTGRESQL
 
-## APIs/SDKs
+## APIs/SDKs:
 
 - STRIPE (Payments)
 - FIREBASE (Storage)
