@@ -32,3 +32,7 @@
 - STRIPE (Payments)
 - FIREBASE (Storage)
 - AUTH0 (LogIn)
+
+<p style="padding-top: 50px" align="center">
+  <img width="85%" src="./desktop-mobile-bg.png" />
+</p>
